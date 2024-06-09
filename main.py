@@ -40,3 +40,5 @@ if st.button('Analyze Stocks'):
 
                 st.write(f"\nStrong stocks for {symbol} during downturn periods:")
                 st.dataframe(strong_stocks)
+
+st.write("The Stock Analysis App is a Streamlit-based web application designed to help investors and financial analysts quickly and efficiently assess the strength of stocks during downturn periods of the S&P 500 index. Users can enter one or multiple stock symbols, and the app fetches historical stock data to identify which stocks performed strongly on days when the market was generally declining.")
